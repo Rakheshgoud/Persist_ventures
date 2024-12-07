@@ -1,0 +1,144 @@
+.custom-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border-radius: 20px; /* Rounded corners */
+  }
+  .custom-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+/* Set background image and styling for the fitness section */
+.fitness-section {
+  background-image: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center; /* Keeps the center of the image in view */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  padding: 150px 0; /* Adjust height of section */
+  color: white;
+  text-align: center;
+  
+}
+
+
+.fitness-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.fitness-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+
+
+
+
+.features-container {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-evenly; 
+  gap: 20px; 
+  margin-top: 30px;
+}
+
+.features-container h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+
+  
+}
+
+.features-container p {
+  font-size: 15px;
+  max-width: 700px; 
+  
+}
+
+.schedule {
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+  padding: 20px; 
+}
+
+.cart {
+  text-align: center; 
+  width: 250px; 
+}
+
+
+.item1, .item2, .item3, .item4, .item5 {
+  flex: 0 0 30%; 
+  
+}
+/* .fitcheck  {
+  display: grid;
+  grid-template-columns: 1fr ;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.pic1{
+  width: 450px;
+} */
+.fit {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+  padding: 20px;
+  
+}
+
+ .fitcheck {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px; 
+} 
+
+.fitcheck img {
+  width: 450px;
+  height: auto;
+  
+}
+
+.fit-text {
+  max-width: 700px; 
+}
+
+
+.fitcheck h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(255, 128, 0);
+  
+}
+
+.fitcheck p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.review{
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  
+
+}
+.rating{
+  
+  background-color: rgba(245, 245, 245, 0.873);
+  width: 400px;
+  text-align: center;
+  
+}
